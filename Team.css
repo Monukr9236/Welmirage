@@ -1,0 +1,209 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background:#ff0066;
+    overflow-x: hidden;
+    height: auto;
+}
+#header{
+    height: 80px;
+    width: 100%;
+    border-bottom: 2px solid black;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background:#ff0066;
+}
+#logo{
+    float: left;
+    margin-left:2%;
+}
+#logo a{
+    text-decoration: none;
+}
+#logo h2{
+      font-size:40px;
+      color: #fff;
+  text-shadow:
+      0 0 7px rgb(23, 180, 201),
+      0 0 10px rgb(55, 58, 235),
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+      line-height: 70px;
+      font-family: 'Fugaz One' , cursive;
+      letter-spacing: 2px;
+}
+#sidebarmenu{
+    color: white;
+    position: absolute;
+    z-index: 100;
+    top:22px;
+    right:100px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#sidebarmenu2{
+    cursor: pointer;
+    color: white;
+    position: absolute;
+    top:22px;
+    right: 70px;
+    opacity: 0;
+    transition: 0.5s;
+}
+#navbar{
+    background: black;
+    width: 250px;
+    margin-top: 80px;
+    margin-right: -250px;
+    height: 100%;
+    z-index: 100;
+    position: fixed;
+    top: 80;
+    right: 0;
+    transition: 0.5s;
+}
+#navbar ul li{
+    list-style: none;
+    margin-right: 40px;
+    transition: 0.5s;
+    width: 100%;
+    border-bottom:1px solid #ff0066;
+    padding-left: 30px;
+    font-size: 18px;
+}
+#navbar ul a{
+    color:white;
+    text-decoration: none;
+    line-height: 70px;
+    font-size: 20px;
+    font-family: 'Ubuntu';
+    text-transform: uppercase;
+    display: block;
+}
+#navbar ul a li:hover{
+    padding-left: 10px;
+    background: #ff0066;
+}
+#main{
+    height: auto;
+}
+#founder h1{
+    text-align: center;
+    padding-top: 100px;
+}
+#founder h2{
+    text-align: center;
+}
+#founder img{
+    height: 200px;
+    width: auto;
+    margin-top: 20px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+#founder img:hover{
+    opacity: 0.5;
+}
+#founder{
+    text-align: center;
+    font-family: 'Ubuntu';
+}
+#founder a{
+    color: black;
+}
+#founder a:hover{
+    color: white;
+}
+#co-founder{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-family: 'Ubuntu';
+}
+#co-founder h1{
+    margin-top: 50px;
+}
+#co-founder img{
+    height: 200px;
+    width: auto;
+    margin-top: 20px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+#co-founder #div1,#div2{
+    float: left;
+    width: 33%;
+}
+#co-founder a{
+    color: black;
+}
+#co-founder a:hover{
+    color: white;
+}
+#co-founder img:hover{
+    opacity: 0.5;
+}
+#footer{
+    height: 150px;
+    width: 100%;
+    font-family: 'Ubuntu';
+    color: white;
+    margin-top: 100px;
+    border-top: 2px solid black;
+}
+#visit{
+    width: 33%;
+    height: auto;
+    float: left;
+    text-align: center;
+    margin-top: 30px;
+}
+#contact{
+    width: 33%;
+    height: auto;
+    float: left;
+    text-align: center;
+    margin-top: 30px;
+}
+#follow{
+    width: 33%;
+    height: auto;
+    float: right;
+    text-align: center;
+    margin-top: 30px;
+}
+#footer .para{
+    padding-top:20px;
+    transition: 0.3s;
+}
+#footer a{
+    color: white;
+    text-decoration: none;
+}
+.para2{
+    padding-top: 5px;
+    transition: 0.3s;
+}
+.para:hover{
+    font-size: 20px;
+}
+.para2:hover{
+    font-size: 20px;
+}
+.copyright{
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+}
+.copyright2{
+    text-align: center;
+    color: white;
+}
